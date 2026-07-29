@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hw4n1/hw4n1/main/assets/banner.svg" alt="Juan Esteban Muñoz Díaz, application security engineer" width="880">
+  <img src="https://raw.githubusercontent.com/hw4n1/hw4n1/main/banner.svg" alt="Juan Esteban Muñoz Díaz, application security engineer" width="880">
 </p>
 
 <p align="center">
