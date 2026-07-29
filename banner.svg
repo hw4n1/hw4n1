@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="880" height="220" role="img" aria-label="Juan Esteban Munoz Diaz - application security engineer">
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .accent { fill: #1D9E75; }
+      .fg { fill: #E8E8E8; }
+      .muted { fill: #7D8590; }
+    </style>
+  </defs>
+
+  <!-- panel -->
+  <rect x="0.5" y="0.5" width="879" height="219" rx="10" fill="#0D1117" stroke="#1F242B"/>
+
+  <!-- hairline superior, guiño a las reglas del sitio -->
+  <rect x="24" y="26" width="832" height="1" fill="#1F242B"/>
+
+  <!-- prompt -->
+  <text class="mono accent" x="32" y="66" font-size="15">~/juanes $</text>
+  <text class="mono fg" x="132" y="66" font-size="15">whoami</text>
+  <rect x="204" y="53" width="9" height="17" class="accent">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- nombre -->
+  <text class="mono fg" x="32" y="118" font-size="31" font-weight="700">Juan Esteban Muñoz Díaz</text>
+
+  <!-- rol -->
+  <text class="mono muted" x="32" y="146" font-size="14">application security engineer · bug bounty · kernel research</text>
+
+  <!-- chips: lo verificable -->
+  <g class="mono" font-size="12.5">
+    <rect x="32" y="168" width="122" height="26" rx="13" fill="none" stroke="#1D9E75" stroke-opacity="0.45"/>
+    <text class="accent" x="49" y="185">tor relay</text>
+
+    <rect x="164" y="168" width="132" height="26" rx="13" fill="none" stroke="#1D9E75" stroke-opacity="0.45"/>
+    <text class="accent" x="181" y="185">ripe atlas</text>
+
+    <rect x="306" y="168" width="140" height="26" rx="13" fill="none" stroke="#1D9E75" stroke-opacity="0.45"/>
+    <text class="accent" x="323" y="185">ooni probe</text>
+
+    <rect x="456" y="168" width="150" height="26" rx="13" fill="none" stroke="#1D9E75" stroke-opacity="0.45"/>
+    <text class="accent" x="473" y="185">proxmox lab</text>
+  </g>
+</svg>
